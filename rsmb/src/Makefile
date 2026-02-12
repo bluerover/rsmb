@@ -88,7 +88,7 @@ else
 ifndef GCC
   GCC = gcc
 endif
-CFLAGS=-Wall
+CFLAGS=-Wall -fcommon
 INSTALL_PATH=~/rsmb
 
 # TARGETS=broker broker_dbg broker_mqtts rsmb.ini
